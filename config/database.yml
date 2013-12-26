@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: fbc_development
   pool: 5
-  username: fbc
+  username: maobster
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,13 +48,5 @@ test:
   encoding: unicode
   database: fbc_test
   pool: 5
-  username: fbc
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: fbc_production
-  pool: 5
-  username: fbc
+  username: maobster
   password:
