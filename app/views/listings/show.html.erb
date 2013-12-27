@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @listing.name %>
+</p>
+
+<p>
+  <strong>Profile url:</strong>
+  <%= @listing.profile_url %>
+</p>
+
+<p>
+  <strong>Pic url:</strong>
+  <%= @listing.pic_url %>
+</p>
+
+<p>
+  <strong>Current rel status:</strong>
+  <%= @listing.current_rel_status %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>
